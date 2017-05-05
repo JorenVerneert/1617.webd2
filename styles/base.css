@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-size: 18px;
+	font-family: "Roboto", sans-serif;
+	color: rgba(4,11,47,1.00);
+	font-weight:300;
+	line-height: 140%;
+}
+
+.grid__column-12,
+.grid__column-11,
+.grid__column-10,
+.grid__column-9,
+.grid__column-8,
+.grid__column-7,
+.grid__column-6,
+.grid__column-5,
+.grid__column-4,
+.grid__column-3,
+.grid__column-2,
+.grid__column-1 {
+    /*margin-top: 125px;*/
+}
+
+
+
+h2{
+	font-size: 24px;
+}
+
+h3{
+	font-size: 24px;
+	color: rgba(164,97,114,1.00)
+}
+
+
+/* header */
+
+
+
+/* banner */
+
+.wrapbanner{
+	width:926px;
+	border-bottom: 2px solid rgba(207,149,141,1.00);
+	margin: 0 auto;
+	position:relative;
+	padding-top: 48px;
+}
+.wrapbanner h1{
+	position: absolute;
+    left: 0;
+    margin: 0 auto;
+    width: 548px;
+    text-align: center;
+    right: 0;
+    bottom: 150px;
+    z-index: -1;
+}
+
+.banner{
+	display: block;
+	margin: 0 auto;
+	width: 64%;
+}
+
+/* footer */
+.footer-wrapper{
+
+	width:926px;
+	border-top: 2px solid rgba(207,149,141,1.00);
+	margin: 0 auto;
+	margin-top: 43px;
+	padding-bottom: 48px;
+}
+
+.text-footer{
+	margin: 0 auto;
+}
+
+/* logo */
+
+.logo,
+.vlek{
+	display: block;
+	margin-top: 140px;
+	height: 166px;
+}
+
+.vlek{
+	
+}
+
+.wraplogo{
+	width:926px;
+	border-bottom: 2px solid rgba(207,149,141,1.00);
+	margin: 0 auto;
+	position:relative;
+	height: 233px;
+	margin-top: 140px;
+}
+.wraplogo h1{
+	position: absolute;
+    left: 0;
+    margin: 0 auto;
+    width: 548px;
+    text-align: center;
+    right: 0;
+    bottom: 110px;
+    z-index: -1;
+}
+
+/* ons team */
+
+.leden{
+	width: 261px;
+	margin-top: 47px;
+}
+
+.bovennamen{
+	margin-top: 47px;
+}
+
+.ondernamen{
+	margin-top: 340px;
+	text-align: right;
+}
+.aanwerving{
+	background-color: rgba(84,114,125,1.00);
+	color: white;
+	height: 317px;
+	padding: 110px 80px;
+}
+
+/* portfolio */
+
+.vespa_1{
+	height: 324px;
+}
+
+.vijftig_1{
+	height: 559px;
+}
+
+.eureka{
+	width: 166px;
+}
+
+.elien_jonas{
+	width: 261px;
+}
+
+.logo_CD{
+	height: 166px;
+}
+
+.vespa_1,
+.vijftig_1,
+.eureka,
+.elien_jonas,
+.logo_CD{
+	margin-top: 46px;
+}
+
+/* contact */
+
+formulier{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 0px;
+    box-sizing: border-box;
+    background-color: rgba(84,114,125,1.00)
+}
+
+
+footer .grid__container{
+	width:926px;
+	border-top: 2px solid rgba(207,149,141,1.00);
+}

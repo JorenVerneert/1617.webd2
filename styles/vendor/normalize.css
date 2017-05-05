@@ -46,9 +46,11 @@ section {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+h1{
+	font-size: 64px;
+	text-align: center;
+	display: block;
+	line-height: normal;
 }
 
 /* Grouping content
