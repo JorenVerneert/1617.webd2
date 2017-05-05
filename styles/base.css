@@ -112,6 +112,16 @@ h3{
     z-index: -1;
 }
 
+/* index.html tekst */
+
+.test{
+	background-color: rgba(84,114,125,1.00);
+}
+
+.witte_tekst{
+	color: white;
+}
+
 /* ons team */
 
 .leden{
