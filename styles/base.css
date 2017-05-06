@@ -24,21 +24,15 @@ body {
     /*margin-top: 125px;*/
 }
 
-
-
 h2{
 	font-size: 24px;
 }
 
 h3{
 	font-size: 24px;
-	color: rgba(164,97,114,1.00)
+	color: rgba(164,97,114,1.00);
+	margin-top: 100px;
 }
-
-
-/* header */
-
-
 
 /* banner */
 
@@ -114,12 +108,19 @@ h3{
 
 /* index.html tekst */
 
-.test{
+.blauw_vlak{
 	background-color: rgba(84,114,125,1.00);
+	color: white;
+	margin-top: 23px;
+	padding: 102px 0;
 }
 
-.witte_tekst{
-	color: white;
+.blauw_vlak h2{
+	color:rgba(4,11,47,1.00);
+}
+
+.grid__wrapper grid__container grid__row{
+	
 }
 
 /* ons team */
@@ -176,18 +177,30 @@ h3{
 
 /* contact */
 
-formulier{
+.contactformulier{
     width: 100%;
-    padding: 12px 20px;
+    padding: 50px 27px;
     margin: 8px 0;
     display: inline-block;
-    border-radius: 0px;
     box-sizing: border-box;
-    background-color: rgba(84,114,125,1.00)
+    background-color: rgba(84,114,125,1.00);
+	line-height: 250%;
+	height: 744px;
 }
 
+input{
+	border-radius: 10px;
+	width: 100%;
+	border: none;
+	height: 33px;
+	color: rgba(207,149,141,1.00);
+}
 
-footer .grid__container{
-	width:926px;
-	border-top: 2px solid rgba(207,149,141,1.00);
+.bericht{
+	height: 341px;
+}
+
+.contact_tekstgegevens{
+	margin-top: 100px;
+	line-height: 200%;
 }
