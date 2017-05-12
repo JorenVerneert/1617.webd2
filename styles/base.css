@@ -1,11 +1,12 @@
 @charset "UTF-8";
+
 /* CSS Document */
 
 body {
 	font-size: 18px;
 	font-family: "Roboto", sans-serif;
-	color: rgba(4,11,47,1.00);
-	font-weight:300;
+	color: rgba(4, 11, 47, 1.00);
+	font-weight: 300;
 	line-height: 140%;
 }
 
@@ -21,149 +22,161 @@ body {
 .grid__column-3,
 .grid__column-2,
 .grid__column-1 {
-    /*margin-top: 125px;*/
+	/*margin-top: 125px;*/
 }
 
-h2{
+h2 {
 	font-size: 24px;
 }
 
-h3{
+h3 {
 	font-size: 24px;
-	color: rgba(164,97,114,1.00);
+	color: rgba(164, 97, 114, 1.00);
 	margin-top: 100px;
 }
 
+
 /* banner */
 
-.wrapbanner{
-	width:926px;
-	border-bottom: 2px solid rgba(207,149,141,1.00);
+.wrapbanner {
+	width: 81%;
+	border-bottom: 2px solid rgba(207, 149, 141, 1.00);
 	margin: 0 auto;
-	position:relative;
+	position: relative;
 	padding-top: 48px;
 }
-.wrapbanner h1{
+
+.wrapbanner h1 {
 	position: absolute;
-    left: 0;
-    margin: 0 auto;
-    width: 548px;
-    text-align: center;
-    right: 0;
-    bottom: 150px;
-    z-index: -1;
+	left: 0;
+	margin: 0 auto;
+	width: 548px;
+	text-align: center;
+	right: 0;
+	bottom: 150px;
+	z-index: -1;
 }
 
-.banner{
+.banner {
 	display: block;
 	margin: 0 auto;
 	width: 64%;
 }
 
-/* footer */
-.footer-wrapper{
 
-	width:926px;
-	border-top: 2px solid rgba(207,149,141,1.00);
+/* footer */
+
+.footer-wrapper {
+	width: 81%;
+	border-top: 2px solid rgba(207, 149, 141, 1.00);
 	margin: 0 auto;
 	margin-top: 43px;
-	padding-bottom: 48px;
+	padding: 24px 0px;
 }
 
-.text-footer{
-	margin: 0 auto;
+.text-footer {
+	font-size: 13px;
+	color: rgba(84, 114, 125, 1.00);
 }
+
+.fa-facebook-square,
+.fa-instagram {
+	color: rgba(84, 114, 125, 1.00);
+	margin-left: 26px;
+}
+
 
 /* logo */
 
-.logo,
-.vlek{
+.logo {
 	display: block;
-	margin-top: 140px;
-	height: 166px;
+	margin-top: 90px;
+	height: 90px;
 }
 
-.vlek{
-	
-}
-
-.wraplogo{
-	width:926px;
-	border-bottom: 2px solid rgba(207,149,141,1.00);
+.wraplogo {
+	width: 81%;
+	border-bottom: 2px solid rgba(207, 149, 141, 1.00);
 	margin: 0 auto;
-	position:relative;
-	height: 233px;
-	margin-top: 140px;
+	position: relative;
+	height: 170px;
+	margin-top: 20px;
 }
-.wraplogo h1{
+
+.wraplogo h1 {
 	position: absolute;
-    left: 0;
-    margin: 0 auto;
-    width: 548px;
-    text-align: center;
-    right: 0;
-    bottom: 110px;
-    z-index: -1;
+	left: 0;
+	margin: 0 auto;
+	width: 548px;
+	text-align: center;
+	right: 0;
+	bottom: 70px;
+	z-index: -1;
 }
 
-/* index.html tekst */
 
-.blauw_vlak{
-	background-color: rgba(84,114,125,1.00);
+/* index.html inhoud */
+
+.blauw_vlak {
+	background-color: rgba(84, 114, 125, 1.00);
 	color: white;
 	margin-top: 23px;
 	padding: 102px 0;
 }
 
-.blauw_vlak h2{
-	color:rgba(4,11,47,1.00);
+.blauw_vlak h2 {
+	color: rgba(4, 11, 47, 1.00);
 }
 
-.grid__wrapper grid__container grid__row{
-	
+.werkplek {
+	width: 100%;
+	margin-top: 100px;
 }
+
 
 /* ons team */
 
-.leden{
-	width: 261px;
+.standaard_foto{
+	width: 100%;
 	margin-top: 47px;
 }
 
-.bovennamen{
+.bovennamen {
 	margin-top: 47px;
 }
 
-.ondernamen{
-	margin-top: 340px;
+.ondernamen {
+	margin-top: 67px;
 	text-align: right;
 }
-.aanwerving{
-	background-color: rgba(84,114,125,1.00);
+
+.aanwerving {
+	background-color: rgba(84, 114, 125, 1.00);
 	color: white;
-	height: 317px;
-	padding: 110px 80px;
+	padding: 126px 56px;
+	margin-top: 50px;
 }
+
 
 /* portfolio */
 
-.vespa_1{
+.vespa_1 {
 	height: 324px;
 }
 
-.vijftig_1{
+.vijftig_1 {
 	height: 559px;
 }
 
-.eureka{
+.eureka {
 	width: 166px;
 }
 
-.elien_jonas{
+.elien_jonas {
 	width: 261px;
 }
 
-.logo_CD{
+.logo_CD {
 	height: 166px;
 }
 
@@ -171,36 +184,65 @@ h3{
 .vijftig_1,
 .eureka,
 .elien_jonas,
-.logo_CD{
+.logo_CD {
 	margin-top: 46px;
 }
 
+
 /* contact */
 
-.contactformulier{
-    width: 100%;
-    padding: 50px 27px;
-    margin: 8px 0;
-    display: inline-block;
-    box-sizing: border-box;
-    background-color: rgba(84,114,125,1.00);
+.contactformulier {
+	width: 100%;
+	padding: 50px 27px;
+	margin: 8px 0;
+	display: inline-block;
+	box-sizing: border-box;
+	background-color: rgba(84, 114, 125, 1.00);
 	line-height: 250%;
 	height: 744px;
 }
 
-input{
+input {
 	border-radius: 10px;
 	width: 100%;
 	border: none;
 	height: 33px;
-	color: rgba(207,149,141,1.00);
+	color: rgba(207, 149, 141, 1.00);
 }
 
-.bericht{
+.bericht {
 	height: 341px;
 }
 
-.contact_tekstgegevens{
+.contact_tekstgegevens {
 	margin-top: 100px;
 	line-height: 200%;
+	/*48px*/
+	;
+}
+
+
+/* teamleden */
+
+.algemene_gegevens {
+	color: rgba(84, 114, 125, 1.00);
+	margin-top: 25px;
+	line-height: 270%;
+}
+
+.algemene_gegevens_2 {
+	margin-top: 6px;
+	line-height: 65px;
+}
+
+.quote_tekst {
+	font-family: "Josefin Slab";
+	text-align: center;
+	font-size: 38px;
+	line-height: 140%
+}
+
+.blauw_vlak-2 {
+	margin-top: 95px;
+	padding: 20px 0px;
 }
