@@ -35,6 +35,11 @@ h3 {
 	margin-top: 100px;
 }
 
+h4 {
+	font-size: 15px;
+	color: white;
+}
+
 
 /* banner */
 
@@ -83,6 +88,10 @@ h3 {
 .fa-instagram {
 	color: rgba(84, 114, 125, 1.00);
 	margin-left: 26px;
+}
+
+.adres_footer{
+	text-align: right;
 }
 
 
@@ -136,7 +145,7 @@ h3 {
 
 /* ons team */
 
-.standaard_foto{
+.standaard_foto {
 	width: 100%;
 	margin-top: 47px;
 }
@@ -156,38 +165,6 @@ h3 {
 	padding: 126px 56px;
 	margin-top: 50px;
 }
-
-
-/* portfolio */
-
-.vespa_1 {
-	height: 324px;
-}
-
-.vijftig_1 {
-	height: 559px;
-}
-
-.eureka {
-	width: 166px;
-}
-
-.elien_jonas {
-	width: 261px;
-}
-
-.logo_CD {
-	height: 166px;
-}
-
-.vespa_1,
-.vijftig_1,
-.eureka,
-.elien_jonas,
-.logo_CD {
-	margin-top: 46px;
-}
-
 
 /* contact */
 
@@ -221,6 +198,10 @@ input {
 	;
 }
 
+iframe{
+	height: 473px;
+	margin-top: 48px;
+}
 
 /* teamleden */
 
@@ -245,4 +226,35 @@ input {
 .blauw_vlak-2 {
 	margin-top: 95px;
 	padding: 20px 0px;
+}
+
+
+/* portfolio, overlayer */
+
+.overlayer {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgba(207, 149, 141, 0.8);
+	transition: 0.5s;
+	margin-top: 47px;
+}
+
+.portfolio_wraper {
+	position: relative;
+}
+
+.portfolio_wraper:hover .overlayer,
+.portfolio_wraper:hover .overlayer h4 {
+	color: transparent;
+	background-color: transparent;
+}
+
+.portfolio_wraper h4 {
+	text-align: center;
+	margin-top: 50%;
+}
+
+.grid__column-4 .portfolio_wraper h4 {
+	margin-top: 37%;
 }
