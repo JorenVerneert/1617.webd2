@@ -194,13 +194,12 @@ input {
 .contact_tekstgegevens {
 	margin-top: 100px;
 	line-height: 200%;
-	/*48px*/
 	;
 }
 
 iframe{
-	height: 473px;
-	margin-top: 48px;
+	height: 472px;
+    margin-top: 92px;
 }
 
 /* teamleden */
