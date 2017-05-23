@@ -58,7 +58,7 @@ h4 {
 	width: 548px;
 	text-align: center;
 	right: 0;
-	bottom: 150px;
+	bottom: 180px;
 	z-index: -1;
 }
 
@@ -89,6 +89,11 @@ h4 {
 	color: rgba(84, 114, 125, 1.00);
 	margin-left: 26px;
 }
+
+.fa-facebook-square:hover,
+.fa-instagram:hover{
+	color: rgba(4, 11, 47, 1.00);
+} 
 
 .adres_footer{
 	text-align: right;
@@ -159,12 +164,16 @@ h4 {
 	text-align: right;
 }
 
-.aanwerving {
+/*.aanwerving a{
 	background-color: rgba(84, 114, 125, 1.00);
 	color: white;
 	padding: 126px 56px;
 	margin-top: 50px;
+	height:100%;
+	width:100%;
+	margin-top: 47px;
 }
+*/
 
 /* contact */
 
@@ -179,7 +188,7 @@ h4 {
 	height: 744px;
 }
 
-input {
+form input {
 	border-radius: 10px;
 	width: 100%;
 	border: none;
@@ -200,6 +209,7 @@ input {
 iframe{
 	height: 472px;
     margin-top: 92px;
+	border: none;
 }
 
 /* teamleden */
@@ -256,4 +266,20 @@ iframe{
 
 .grid__column-4 .portfolio_wraper h4 {
 	margin-top: 37%;
+}
+
+/* knop */
+
+.grid__column-2 input,
+.grid__column-2 input:active{
+	background-color: rgba(207, 149, 141, 1.00);
+	border: none;
+	width: 100%;
+    padding: 18px;
+    margin-top: 24px;
+    color: white;
+}
+
+.grid__column-2 input:hover{
+	background-color: rgba(164, 97, 114, 1.00);
 }
