@@ -10,20 +10,6 @@ body {
 	line-height: 140%;
 }
 
-.grid__column-12,
-.grid__column-11,
-.grid__column-10,
-.grid__column-9,
-.grid__column-8,
-.grid__column-7,
-.grid__column-6,
-.grid__column-5,
-.grid__column-4,
-.grid__column-3,
-.grid__column-2,
-.grid__column-1 {
-	/*margin-top: 125px;*/
-}
 
 h2 {
 	font-size: 24px;
@@ -244,7 +230,7 @@ iframe{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	background-color: rgba(207, 149, 141, 0.8);
+	background-color: rgba(207, 149, 141, 0.7);
 	transition: 0.5s;
 	margin-top: 47px;
 }
@@ -266,6 +252,10 @@ iframe{
 
 .grid__column-4 .portfolio_wraper h4 {
 	margin-top: 37%;
+}
+
+.portfolio_foto{
+	border: 2px solid rgba(207, 149, 141, 1.00);
 }
 
 /* knop */
