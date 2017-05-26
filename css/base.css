@@ -26,6 +26,14 @@ h4 {
 	color: white;
 }
 
+a{
+	text-decoration: none;
+	color: rgba(84, 114, 125, 1.00);
+}
+
+a:hover{
+	color: rgba(4, 11, 47, 1.00)
+}
 
 /* banner */
 
@@ -150,16 +158,6 @@ h4 {
 	text-align: right;
 }
 
-/*.aanwerving a{
-	background-color: rgba(84, 114, 125, 1.00);
-	color: white;
-	padding: 126px 56px;
-	margin-top: 50px;
-	height:100%;
-	width:100%;
-	margin-top: 47px;
-}
-*/
 
 /* contact */
 
